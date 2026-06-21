@@ -34,19 +34,19 @@ public class Counter : MonoBehaviour
     }
 
     private IEnumerator Countdown()
-    {        
-        for (float i = _startCount; i <= _endCount; i+=_delay)
+    {
+        for (float i = _startCount; i <= _endCount; i += _delay)
         {
-            _sumCount += i;
+            _sumCount += _delay;
             Debug.Log($"счётчик - {_sumCount}");
             yield return new WaitForSeconds(_delay);
         }
-        Debug.Log($"Сумма - {_sumCount}");
-
         _isCounting = false;
         _countdownCoroutine = null;
     }
 }
+
+
 
 
 
