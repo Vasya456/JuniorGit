@@ -571,8 +571,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606112816}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.31438363, y: -0.003705483, z: 0.0012271531, w: -0.949288}
-  m_LocalPosition: {x: 1.0065032, y: 6.4503, z: -8.479235}
+  m_LocalRotation: {x: -0.37213615, y: 0.00055406103, z: -0.00022221604, w: -0.928178}
+  m_LocalPosition: {x: -0.16213796, y: 15.13333, z: -16.006752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 565b7934887187143b64304c964215a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mover
-  _speed: 1
+  _speed: 25
 --- !u!114 &1861925595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eaa31bd33d453342bf01388b0db0a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Grower
-  _growSpeed: 1
+  _growSpeed: 0.2
 --- !u!1 &2042068333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eaa31bd33d453342bf01388b0db0a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Grower
-  _growSpeed: 1
+  _growSpeed: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
